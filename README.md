@@ -11,7 +11,7 @@ As a developer, I spend most of my time in terminal and browser, constantly
 switching between them. This extension has been written so I can avoid
 switching to Finder, somehow it always finds (hence a name) a way to annoy me.
 
-![Finder is always there](commtab.png)
+![Finder is always there](cmdtab.png)
 
 Installation
 ------------

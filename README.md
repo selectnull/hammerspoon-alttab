@@ -29,7 +29,7 @@ Add these lines to your `~/.hammerspoon/init.lua` file:
     local alttab = require("hammerspoon-alttab")
     alttab.registerDefaultBindings('.')
 
-This will set the following key bindings:
+This will set the following default key bindings:
 
 * `cmd+.` to switch to next window
 * `cmd+alt+.` to add or remove currently focused window to cycle list
@@ -38,9 +38,10 @@ This will set the following key bindings:
 Instead of `.` you may use any other key, just pass it to
 `registerDefaultBindings` method.
 
-You might also not like default modifiers used by 'registerDefaultBindings'. In
+You might also not like default modifiers used by `registerDefaultBindings`. In
 that case, you can register your own:
 
+    local alttab = require("hammerspoon-alttab")
     hs.hotkey.bind({"alt"}, "tab", alttab.focusNext)
     hs.hotkey.bind({"alt", "shift"}, "tab", alttab.toggleWindow)
     hs.hotkey.bind({"alt", "ctrl", "shift"}, "tab", alttab.debug)

@@ -17,9 +17,9 @@ Installation
 ------------
 
 * Install [Hammerspoon](http://www.hammerspoon.org/)
-* git clone this repository to ~/.hammerspoon config directory
+* git clone this repository to ~/.hammerspoon config directory:
 
-    git clone https://github.com/selectnull/hammerspoon-alttab.git ~/.hammerspoon/hammerspoon-alttab
+    `git clone https://github.com/selectnull/hammerspoon-alttab.git ~/.hammerspoon/hammerspoon-alttab`
 
 Configuration
 -------------
